@@ -6,7 +6,7 @@ ViSA (**Vi**sual-Centric Data **S**election with Collaborative **A**gents**) is 
 
 [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2502.19917)
 
-# ⚡️ Install
+# ⚡️ Installation
 
 To ensure smooth integration with external dependencies, we recommend setting up separate virtual environments for different components of the project.
 

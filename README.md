@@ -2,9 +2,13 @@
 
 🚀 **Welcome to the repo of ViSA!**
 
-ViSA (**Vi**sual-Centric Data **S**election with Collaborative **A**gents**) is an open-source project designed to enhance visual data selection through collaborative agents.
+ViSA (**Vi**sual-Centric Data **S**election with Collaborative **A**gents) is an open-source project designed to enhance visual data selection through collaborative agents.
 
 [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2502.19917)
+
+- [ ] Model Release (WIP)
+- [ ] Data Release (WIP)
+- [x] Code Release
 
 # ⚡️ Installation
 

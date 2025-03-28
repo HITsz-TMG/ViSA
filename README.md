@@ -7,7 +7,7 @@ ViSA (**Vi**sual-Centric Data **S**election with Collaborative **A**gents) is an
 [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2502.19917)
 
 - [ ] Model Release (WIP)
-- [ ] Data Release (WIP)
+- [x] Data Release
 - [x] Code Release
 
 # ⚡️ Installation
@@ -111,11 +111,17 @@ conda activate vllm # dev_vllm for qwen
 bash Scrpit/PT_IM_score.sh
 ```
 
-# 🗝️ Dataset (WIP)
+# 🗝️ Dataset
 
-We plan to publicly release our dataset soon.
+You can download our dataset here. We provide two versions of the data: [ViSA_LlavaOV_80K](https://huggingface.co/datasets/foggyforest/ViSA_LlavaOV_80K) and [ViSA_LlavaOV_700K](https://huggingface.co/datasets/foggyforest/ViSA_LlavaOV_700K). The 80K dataset can be used for small-scale multimodal model alignment or replicating the experiments in our paper, while the 700K dataset is suitable for large-scale multimodal model alignment.
 
----
+Due to capacity limitations for new accounts on Huggingface, we are temporarily unable to upload data containing images. To obtain the image data, please download the original [Llava-OneVision](https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data) dataset.
+
+
+# 🗝️ Models (WIP)
+
+We will publish the model used in our paper and the best model trained on our datasets soon 
+
 
 📢 Stay Connected
 

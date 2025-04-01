@@ -6,7 +6,7 @@ ViSA (**Vi**sual-Centric Data **S**election with Collaborative **A**gents) is an
 
 [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2502.19917)
 
-- [ ] Model Release (WIP)
+- [x] Model Release
 - [x] Data Release
 - [x] Code Release
 
@@ -113,17 +113,37 @@ bash Scrpit/PT_IM_score.sh
 
 # 🗝️ Dataset
 
-You can download our dataset here. We provide two versions of the data: [ViSA_LlavaOV_80K](https://huggingface.co/datasets/foggyforest/ViSA_LlavaOV_80K) and [ViSA_LlavaOV_700K](https://huggingface.co/datasets/foggyforest/ViSA_LlavaOV_700K). The 80K dataset can be used for small-scale multimodal model alignment or replicating the experiments in our paper, while the 700K dataset is suitable for large-scale multimodal model alignment.
+You can download our dataset here. We provide two versions of the data: [ViSA-LlavaOV-80K](https://huggingface.co/datasets/foggyforest/ViSA_LlavaOV_80K) and [ViSA-LlavaOV-700K](https://huggingface.co/datasets/foggyforest/ViSA_LlavaOV_700K).
+
+The 80K dataset can be used for small-scale multimodal model alignment or replicating the experiments in our paper, while the 700K dataset is suitable for large-scale multimodal model alignment.
 
 Due to capacity limitations for new accounts on Huggingface, we are temporarily unable to upload data containing images. To obtain the image data, please download the original [Llava-OneVision](https://huggingface.co/datasets/lmms-lab/LLaVA-OneVision-Data) dataset.
 
 
-# 🗝️ Models (WIP)
+# 💫 Models
 
-We will publish the model used in our paper and the best model trained on our datasets soon 
+Our visual-semantic alignment models based on Qwen2-VL-2B architecture are available for academic research:
 
+- [Qwen2-VL-2B-ViSA-80K](https://huggingface.co/foggyforest/Qwen2-VL-2B-ViSA-80K): Trained on ViSA-LlavaOV-80K dataset, specifically calibrated for reproducing experimental results in our publication.
+- [Qwen2-VL-2B-Instruction-ViSA-700K](https://huggingface.co/foggyforest/Qwen2-VL-2B-Instruction-ViSA-700K): Enhanced through ViSA-LlavaOV-700K training, demonstrating superior multi-modal reasoning compared to its base instruction model.
 
-📢 Stay Connected
+(WIP) We will publish the detailed evaluation soon 
+
+# 📢 Stay Connected
 
 For any questions, issues, or contributions, feel free to open an issue or submit a pull request.
+
+# Citation
+
+If you find our model/code/paper helpful, please consider citing our papers 📝 and staring us ⭐️！
+
+```bib
+@article{liu2025picking,
+  title={Picking the Cream of the Crop: Visual-Centric Data Selection with Collaborative Agents},
+  author={Liu, Zhenyu and Li, Yunxin and Hu, Baotian and Luo, Wenhan and Wang, Yaowei and Zhang, Min},
+  journal={arXiv preprint arXiv:2502.19917},
+  year={2025}
+}
+```
+
 
